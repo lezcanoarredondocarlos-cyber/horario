@@ -1,0 +1,39 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+caption {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+}
+
+thead {
+    background-color: #4472C4;
+    color: white;
+}
+
+tbody {
+    background-color: #D9EAF7;
+}
+
+tfoot {
+    background-color: #4472C4;
+    color: white;
+    font-weight: bold;
+}
+
+th {
+    font-size: 16px;
+}
+
+td {
+    font-size: 14px;
+}
