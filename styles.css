@@ -1,39 +1,60 @@
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: Arial;
+}
+
 table {
     width: 100%;
+    background-color: white;
     border-collapse: collapse;
     text-align: center;
 }
 
 caption {
-    font-size: 22px;
+    background-color: white;
+    font-size: 18px;
     font-weight: bold;
-    padding: 10px;
-}
-
-th, td {
-    border: 1px solid black;
-    padding: 12px;
-}
-
-thead {
-    background-color: #4472C4;
-    color: white;
-}
-
-tbody {
-    background-color: #D9EAF7;
-}
-
-tfoot {
-    background-color: #4472C4;
-    color: white;
-    font-weight: bold;
+    padding: 15px;
 }
 
 th {
-    font-size: 16px;
+    background-color: white;
+    color: dimgray;
+    padding: 12px;
 }
 
 td {
-    font-size: 14px;
+    background-color: white;
+    color: dimgray;
+    padding: 12px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+thead {
+    background-color: white;
+}
+
+tfoot {
+    background-color: white;
+    color: dimgray;
+    font-weight: bold;
+}
+
+.pati {
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+}
+
+.taller {
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+
+.projecte {
+    background-color: palevioletred;
+    color: black;
+    font-weight: bold;
 }
